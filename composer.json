@@ -12,8 +12,10 @@
         "doctrine/doctrine-bundle": "^2.2",
         "doctrine/doctrine-migrations-bundle": "^3.0",
         "doctrine/orm": "^2.8",
+        "guzzlehttp/guzzle": "^7.0",
         "phpdocumentor/reflection-docblock": "^5.2",
         "sensio/framework-extra-bundle": "^5.1",
+        "serpwow/google-search-results": "^0.2.5",
         "symfony/asset": "5.2.*",
         "symfony/console": "5.2.*",
         "symfony/dotenv": "5.2.*",
@@ -43,8 +45,8 @@
         "twig/twig": "^2.12|^3.0"
     },
     "require-dev": {
-        "symfony/browser-kit": "^5.2",
-        "symfony/css-selector": "^5.2",
+        "symfony/browser-kit": "5.2.*",
+        "symfony/css-selector": "5.2.*",
         "symfony/debug-bundle": "^5.2",
         "symfony/maker-bundle": "^1.0",
         "symfony/phpunit-bridge": "^5.2",

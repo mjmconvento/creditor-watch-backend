@@ -13,6 +13,10 @@
         <server name="SHELL_VERBOSITY" value="-1" />
         <server name="SYMFONY_PHPUNIT_REMOVE" value="" />
         <server name="SYMFONY_PHPUNIT_VERSION" value="8.5" />
+        <ini name="session.use_cookies" value="0" />
+        <ini name="session.use_only_cookies" value="0" />
+        <ini name="session.use_trans_sid" value="0" />
+        <ini name="session.cache_limiter" value="" />
     </php>
 
     <testsuites>
